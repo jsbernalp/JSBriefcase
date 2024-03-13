@@ -1,0 +1,48 @@
+[versions]
+ktx = "1.7.0"
+appCompat = "1.4.1"
+material = "1.5.0"
+constraintLayout = "2.1.3"
+multidex = "2.0.1"
+dagger-hilt = "2.38.1"
+hilt-compiler = "1.0.0"
+lifeCycle_runtine_ktx = "2.5.1"
+lifeCycle_extensions = "2.2.0"
+lifeCycle_common_java8 = "2.5.1"
+cardView = "1.0.0"
+recyclerView = "1.3.2"
+junit = "4.13.2"
+ext_junit = "1.1.5"
+espresso_core = "3.5.1"
+jsbernalp_base = "0.0.4"
+androidGradlePlugin = "7.4.2"
+androidGradleLibrary = "7.4.2"
+jetbrainsKotlinAndroid = "1.8.0"
+daggerHiltAndroid = "2.43.2"
+
+[libraries]
+junit_library = { group = "junit", name = "junit", version.ref = "junit" }
+ext_junit_library = { group = "androidx.test.ext", name = "junit", version.ref = "ext_junit" }
+espresso_core_library = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso_core" }
+jsbernalp_base_library = { group = "com.github.jsbernalp", name = "base", version.ref = "jsbernalp_base" }
+androidx_ktx_library = { group = "androidx.core", name = "core-ktx", version.ref = "ktx" }
+app_compat_library = { group = "androidx.appcompat", name = "appcompat", version.ref = "appCompat" }
+material_library = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraint_layout_library = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
+multidex_library = { group = "androidx.multidex", name = "multidex", version.ref = "multidex" }
+dagger_hilt_library = { group = "com.google.dagger", name = "hilt-android", version.ref = "dagger-hilt" }
+hilt_compiler_library = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "dagger-hilt" }
+androidx_hilt_compiler_library = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hilt-compiler" }
+lifeCycle_runtime_ktx_library = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifeCycle_runtine_ktx" }
+lifeCycle_extensions_library = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifeCycle_extensions" }
+lifeCycle_common_java8_library = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifeCycle_common_java8" }
+cardView_library = { group = "androidx.cardview", name = "cardview", version.ref = "cardView" }
+recyclerView_library = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerView" }
+
+
+[plugins]
+android_application_plugin = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android_library_plugin = { id = "com.android.library", version.ref = "androidGradleLibrary" }
+kotlin_android_plugin = { id = "org.jetbrains.kotlin.android", version.ref = "jetbrainsKotlinAndroid" }
+dagger_hilt_android_plugin = { id = "com.google.dagger.hilt.android", version.ref = "daggerHiltAndroid" }
+

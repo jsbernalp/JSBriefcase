@@ -12,6 +12,11 @@ dependencyResolutionManagement {
         mavenCentral()
         maven { url 'https://jitpack.io' }
     }
+    versionCatalogs {
+        versioning {
+            from files('gradle/versioning.versions.toml')
+        }
+    }
 }
 rootProject.name = "JSBriefcase"
 include ':app'
